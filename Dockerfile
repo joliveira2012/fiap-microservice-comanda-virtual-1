@@ -10,7 +10,7 @@ ENV ADDITIONAL_OPTS=${ADDITIONAL_OPTS}
 
 WORKDIR /opt/fiap-microservice-comanda-virtual
 
-COPY /target/ecommerce*.jar fiap-microservice-comanda-virtual.jar
+COPY /arquivo_bin/ecommerce*.jar fiap-microservice-comanda-virtual.jar
 
 SHELL ["/bin/sh", "-c"]
 
