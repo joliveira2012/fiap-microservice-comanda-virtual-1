@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8
 
 ARG PROFILE
 
@@ -10,7 +10,7 @@ ENV ADDITIONAL_OPTS=${ADDITIONAL_OPTS}
 
 WORKDIR /opt/fiap-microservice-comanda-virtual
 
-COPY /arquivo_bin/ecommerce*.jar fiap-microservice-comanda-virtual.jar
+COPY /target/ecommerce*.jar fiap-microservice-comanda-virtual.jar
 
 SHELL ["/bin/sh", "-c"]
 
