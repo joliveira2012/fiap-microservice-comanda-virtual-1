@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:8-jdk-alpine
 
 ARG PROFILE
 
@@ -18,4 +18,3 @@ EXPOSE 5005
 EXPOSE 8080
 
 CMD java ${ADDITIONAL_OPTS} -jar fiap-microservice-comanda-virtual.jar --spring.profiles.active=${PROFILE}
-
