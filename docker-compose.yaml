@@ -21,6 +21,6 @@ services:
       - MYSQL_ROOT_HOST=%
       - MYSQL_DATABASE=comanda_virtual
       - MYSQL_USER=root
-      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_PASSWORD=root
     volumes:
       - ./docker/volume_mysql:/var/lib/mysql
