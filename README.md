@@ -1,4 +1,4 @@
-# Projeto Comanda Virtual FIAP - Turma 35SCJ
+# Projeto Comanda Virtual FIAP - Turma 35SCJ  
 
 ## Pré-requisitos para execução da aplicação de transação
 
